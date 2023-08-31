@@ -21,7 +21,7 @@ Explanation: counter() initially returns -2. Then increases after each subsequen
 */
 const createCounter = function (n) {
   return function () {
-    return n++;
+    return n++; // This works as it returns n, then increments n by 1
   };
 };
 
